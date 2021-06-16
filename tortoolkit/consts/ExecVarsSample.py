@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgresql://postgres:dkkaj0123456@postgresql/postgres"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -95,7 +95,7 @@ except:
         # CHANGE THESE AT YOUR RISK
         LOCKED_USERS = False
         RSTUFF = False
-        FORCE_DOCS_USER = False
+        FORCE_DOCS_USER = True
         FAST_UPLOAD = True
         METAINFO_BOT = False
         EXPRESS_UPLOAD = True
